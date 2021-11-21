@@ -16,7 +16,7 @@ The MIDI to CV converter includes the following outputs:
 * Clock output (1 clock per quarter note, 20 msec 5V pulses)
 
 ## Parts
-* Arduino Nano
+* Arduino Nano Every
 * Optocoupler (I used a Vishay SFH618A, but there are plenty of alternatives out there)
 * 2x MCP4822 12-bit DACs
 * LM324N Quad Op Amp 
