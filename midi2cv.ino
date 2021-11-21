@@ -30,7 +30,7 @@
 #define DAC1  8 
 #define DAC2  9
 
-MIDI_CREATE_DEFAULT_INSTANCE();
+MIDI_CREATE_INSTANCE(HardwareSerial, Serial1,  MIDI);
 
 void setup()
 {
